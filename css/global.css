@@ -29,3 +29,6 @@ html, body{
   color: var(--color-text);
 }
 
+.bold{
+  font-weight: bold;
+}
