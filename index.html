@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cardápio online - Seja bem vindo!</title>
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg pl-0 pr-0">
+        <a class="navbar-brand" href="#"><img src="./img/logo.png" alt="Logo cardapio" width="160" class="img-logo"></a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarNavDropdown">
+          <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto mr-auto ">
+            <li class="nav-item"><a href="#reservas" class="nav-link font-b">Reservas</a></li>
+            <li class="nav-item"><a href="#servicos" class="nav-link">Serviços</a></li>
+            <li class="nav-item"><a href="#cardapio" class="nav-link">Cardápio</a></li>
+            <li class="nav-item"><a href="#depoimentos" class="nav-link">Depoimentos</a></li>
+          </ul>
+          <a class="btn btn-white btn-icon" href="">Meu carrinho <span class="icon">
+              <i class="fa fa-shopping-bag"></i>
+            </span></a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="banner">
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <div class="d-flex text-banner">
+            <h1>Escolha sua comida <span class="color-primary">favorita.</span></h1>
+            <p>Aproveite nosso cardápio! Escolha o que desejar e receba em sua casa de forma rápida e segura!</p>
+            <div>
+              <a class="btn btn-yellow mt-4 mt-3" href="">
+                Ver cardápio
+              </a>
+              <a href="#" class="btn btn-white btn-icon-left mt-4"><span class="icon-left"><i class="fa fa-phone"></i></span> (31) 9 9999-9999</a>
+            </div>
+          </div>
+          <div>
+            <a class="btn btn-sn btn-white btn-social mt-4 mr-3" href="#"><i class="fab fa-instagram"></i></a>
+            <a class="btn btn-sn btn-white btn-social mt-4 mr-3" href="#"><i class="fab fa-facebook-f"></i></a>
+            <a class="btn btn-sn btn-white btn-social mt-4" href="#"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+
+        <div class="col-6">
+          <div class="card-banner"></div>
+          <div class="d-flex img-banner">
+            <img src="./img/burguer.png" alt="imagem Hamburguer">
+          </div>
+          <div class="card card-case">
+            "entrega rápida e funcionários simpáticos.
+              <br>A comida chegou quente e <br>
+              muito saborosa!" <br>
+              <span class="card-case-name">Thiago Lopes</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+  <section class="services" id="servicos"></section>
+  <section class="cardapio" id="cardapio"></section>
+  <section class="depoimentos" id="depoimentos"></section>
+  <section class="reserva" id="reservas"></section>
+  <footer></footer>
+
+
+  <script src="./js/plugin/jquery-1.12.4.min.js"></script>
+  <script src="./js/plugin/modernizr-3.5.0.min.js"></script>
+  <script src="./js/plugin/bootstrap.min.js"></script>
+  <script src="./js/plugin/popper.min.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>

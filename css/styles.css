@@ -1,0 +1,9 @@
+/* Externos */
+@import url(./bootstrap.min.css);
+@import url(./fontawesome.css);
+
+/* Estilos */
+@import url(./global.css);
+@import url(./cores.css);
+@import url(./header.css);
+@import url(./main.css);
