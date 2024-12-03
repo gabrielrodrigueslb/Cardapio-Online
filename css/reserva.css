@@ -1,0 +1,23 @@
+.reserva{
+  padding: 100px 150px;
+}
+
+.card-secondary{
+  background: var(--color-secondary);
+  border-radius: 70px;
+  padding: 90px;
+}
+
+.card-reserva{
+  width: 320px;
+  height: 320px;
+  border-radius: 120px;
+  background: var(--color-white);
+  position: absolute;
+  right: 0;
+  top: -25px;
+}
+
+.reserva .img-banner img{
+  width: 100%;
+}
