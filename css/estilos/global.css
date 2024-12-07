@@ -27,6 +27,7 @@ html, body{
   background: var(--color-background);
   font-family: 'Poppins', 'Rubik', sans-serif;
   color: var(--color-text);
+  scroll-behavior: smooth;
 }
 
 .bold{

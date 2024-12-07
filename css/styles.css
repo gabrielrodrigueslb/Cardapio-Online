@@ -1,13 +1,17 @@
 /* Externos */
 @import url(./bootstrap.min.css);
 @import url(./fontawesome.css);
+@import url(./animate.css);
+
 
 /* Estilos */
-@import url(./global.css);
-@import url(./cores.css);
-@import url(./header.css);
-@import url(./main.css);
-@import url(./servicos.css);
-@import url(./cardapio.css);
-@import url(./depoimentos.css);
-@import url(./reserva.css);
+@import url(./estilos/global.css);
+@import url(./estilos/cores.css);
+@import url(./estilos/header.css);
+@import url(./estilos/main.css);
+@import url(./estilos/servicos.css);
+@import url(./estilos/cardapio.css);
+@import url(./estilos/depoimentos.css);
+@import url(./estilos/reserva.css);
+@import url(./estilos/footer.css);
+@import url(./estilos/carrinho.css);
